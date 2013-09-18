@@ -4,37 +4,44 @@
         <meta charset="utf-8" />
         <title>The Startup System | Coming Soon!</title>
         <style>
-body {
+body, html {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: sans-serif;
-    background: #dadef0;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNkYWRlZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDRhZGVhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-radial-gradient(center, ellipse cover,  #dadef0 0%, #44adea 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#dadef0), color-stop(100%,#44adea));
-    background: -webkit-radial-gradient(center, ellipse cover,  #dadef0 0%,#44adea 100%);
-    background: -o-radial-gradient(center, ellipse cover,  #dadef0 0%,#44adea 100%);
-    background: -ms-radial-gradient(center, ellipse cover,  #dadef0 0%,#44adea 100%);
-    background: radial-gradient(ellipse at center,  #dadef0 0%,#44adea 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadef0', endColorstr='#44adea',GradientType=1 );
 }
-h1 {
+body {
+    font-family: sans-serif;
+    background: #e0e0e0;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlMGUwZTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-radial-gradient(center, ellipse cover, #e0e0e0 0%, #ffffff 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e0e0e0), color-stop(100%,#ffffff));
+    background: -webkit-radial-gradient(center, ellipse cover, #e0e0e0 0%,#ffffff 100%);
+    background: -o-radial-gradient(center, ellipse cover, #e0e0e0 0%,#ffffff 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #e0e0e0 0%,#ffffff 100%);
+    background: radial-gradient(ellipse at center, #e0e0e0 0%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#ffffff',GradientType=1 );
+}
+img.logo {
     position: absolute;
     top: 50%;
     left: 50%;
-    text-align: center;
+    height: auto;
+    width: 420px;
     margin-top: -94px;
     margin-left: -210px;
 }
-h1 img {
-    height: auto;
-    width: 420px;
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: 94px;
+    color: #383838;
 }
         </style>
     </head>
     <body>
-        <h1><img src="ss-logo-large.png" alt="The Startup System" /></h1>
+        <img src="ss-logo-large.png" alt="The Startup System" class="logo" />
         <h2>Coming soon!</h2>
     </body>
 </html>
